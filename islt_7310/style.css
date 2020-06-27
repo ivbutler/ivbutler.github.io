@@ -1,4 +1,4 @@
-h1 {color: #663333;}
+h1 {color: #663333; font-size: 25pt; font-family: Book Antiqua;}
 footer {font-size: 14pt;}
 a:link {color: #330000;}
 a:hover {color: #336666;}
@@ -6,3 +6,10 @@ a:focus {color: #660000;}
 a:visited {color: #660033;}
 a:active {color: #993333;}
 a{text-decoration: none; font-size: 10pt;}
+h3 {color: #330000; font-size: 20pt;}
+p {font-family: Book Antiqua;}
+img {
+  float: right;
+}
+main li {color: #990033;}
+li {color: #996666;}
