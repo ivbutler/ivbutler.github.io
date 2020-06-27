@@ -1,4 +1,4 @@
-h1 {color: #663333; font-size: 25pt; font-family: Book Antiqua;}
+h1 {color: #663333; font-size: 25pt; font-family: Book Antiqua; background-color: #ff99ff; border-style: solid; border-color: #cc9999; border-width: 5px;}
 footer {font-size: 14pt;}
 a:link {color: #330000;}
 a:hover {color: #336666;}
@@ -9,7 +9,9 @@ a{text-decoration: none; font-size: 10pt;}
 h3 {color: #330000; font-size: 20pt;}
 p {font-family: Book Antiqua;}
 img {
-  float: right;
+  float: right; padding: 30px; left: -30px; position: relative;
 }
 main li {color: #990033;}
-li {color: #996666;}
+li {color:  #cc0066;}
+body {background-color:#ffccff;}
+footer {border-top-style: solid; border-top-width: 5px; padding: 5px; border-top-color: #cc9999;}
