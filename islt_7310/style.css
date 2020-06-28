@@ -1,3 +1,12 @@
+    <!--
+
+*****************************************************************************
+
+Validated: June 27, 2020
+
+******************************************************************************
+
+            -->
 h1 {color: #663333; font-size: 25pt; font-family: Book Antiqua; background-color: #ff99ff; border-style: solid; border-color: #cc9999; border-width: 5px;}
 footer {font-size: 14pt;}
 a:link {color: #330000;}
@@ -13,5 +22,5 @@ img {
 }
 main li {color: #990033;}
 li {color:  #cc0066;}
-body {background-color:#ffccff;}
+body {background-color:#ffccff; margin: 15px; padding: 5em;}
 footer {border-top-style: solid; border-top-width: 5px; padding: 5px; border-top-color: #cc9999;}
