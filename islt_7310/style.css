@@ -15,4 +15,47 @@ main li {color: #990033;}
 li {color:  #cc0066;}
 body {background-color:#ffccff; margin: 15px; padding: 5em;}
 footer {border-top-style: solid; border-top-width: 5px; padding: 5px; border-top-color: #cc9999;}
-/* Validated: July 8, 2020 */
+@media screen and (max-width: 1024px) {
+    body {
+        width: 100%;
+        top: 0px;
+        margin: 0px;
+        padding: 5px;
+        position: relative;
+        font-size: 100%;
+    }
+    footer { width: 100%;
+    }
+    header {width: 100%; 
+    top: 0px;
+    margin: 0px;
+    }
+    nav {width: 100%;
+    padding: 10px;
+    padding-top: 0px;
+}
+    title {width: 100%;
+    }
+    img {
+        float: right;
+        margin: 1%;
+        width: 30%; 
+    }
+    p {width:100%;
+        font-size: .75em;
+    }
+    h1 {font-size: 1.75em;
+    }
+    h2 {font-size: 1.5em;
+    }
+    blockquote {font-size: 1em;}
+    footer {font-size: .75em;
+    }
+    ul {width: 70%; font-size: .75em;
+    }
+    p a {font-size: 1.5em;
+    }
+    h3 {font-size: 1.125em;
+    }
+}
+/* Validated: July 17, 2020 */
