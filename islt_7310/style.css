@@ -1,4 +1,9 @@
-h1 {color: #663333; font-size: 25pt; font-family: Book Antiqua; background-color: #ff99ff; border-style: solid; border-color: #cc9999; border-width: 5px; text-align: center;}
+@font-face { 
+
+font-family: RedRose; 
+src: url("RoseRed-Regular.ttf"); 
+}
+h1 {color: #663333; font-size: 25pt; font-family: RoseRed; background-color: #ff99ff; border-style: solid; border-color: #cc9999; border-width: 5px; text-align: center;}
 footer {font-size: 14pt;}
 a:link {color: #330000;}
 a:hover {color: #336666;}
@@ -8,11 +13,13 @@ a:active {color: #993333;}
 a{text-decoration: none; font-size: 10pt;}
 h3 {color: #330000; font-size: 20pt;}
 p {font-family: Book Antiqua;}
+
 img {
   float: right; padding: 30px; left: -30px; position: relative;
 }
 main li {color: #990033;}
 li {color:  #cc0066;}
+blockquote {font-family: rosered}
 body {background-color:#ffccff; margin: 15px; padding: 5em;}
 footer {border-top-style: solid; border-top-width: 5px; padding: 5px; border-top-color: #cc9999;}
 @media screen and (max-width: 1024px) {
@@ -57,5 +64,29 @@ footer {border-top-style: solid; border-top-width: 5px; padding: 5px; border-top
     }
     h3 {font-size: 1.125em;
     }
+}
+@media print {
+    
+    body {background-color: white; font-family: Georgia, serif; font-size: 16pt; margin: 0; padding: 0;
+    
+    }
+    * {color: #000;}
+    nav {display: none;}
+    p {color: black;}
+    ul, main li, li {color: #000;}
+    h1 {color: black; border-color: #000;}
+    footer {border-top-color: #000;}
+    
+}
+
+@media print {
+    
+    body {background-color: white; font-family: Georgia, serif; font-size: 16pt; margin: 0; padding: 0;
+    
+    }
+    * {color: #000 !important;}
+    nav {display: none !important;}
+    blockquote {font-family: RedRose;}
+    
 }
 /* Validated: July 17, 2020 */
