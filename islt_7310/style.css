@@ -1,7 +1,5 @@
-@font-face { 
-
-font-family: RedRose; 
-src: url("RoseRed-Regular.ttf"); 
+@font-face { font-family: RedRose; 
+    src: url(RoseRed-Regular.ttf); 
 }
 h1 {color: #663333; font-size: 25pt; font-family: RoseRed; background-color: #ff99ff; border-style: solid; border-color: #cc9999; border-width: 5px; text-align: center;}
 footer {font-size: 14pt;}
@@ -19,7 +17,8 @@ img {
 }
 main li {color: #990033;}
 li {color:  #cc0066;}
-blockquote {font-family: rosered}
+blockquote {font-family: RedRose;
+}
 body {background-color:#ffccff; margin: 15px; padding: 5em;}
 footer {border-top-style: solid; border-top-width: 5px; padding: 5px; border-top-color: #cc9999;}
 @media screen and (max-width: 1024px) {
