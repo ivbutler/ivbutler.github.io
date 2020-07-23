@@ -10,8 +10,7 @@ a:visited {color: #660033;}
 a:active {color: #993333;}
 a{text-decoration: none; font-size: 10pt;}
 h3 {color: #330000; font-size: 20pt;}
-p {font-family: Book Antiqua;}
-
+p{font-family: Book Antiqua;}
 img {
   float: right; padding: 30px; left: -30px; position: relative;
 }
@@ -21,6 +20,8 @@ blockquote {font-family: RedRose;
 }
 body {background-color:#ffccff; margin: 15px; padding: 5em;}
 footer {border-top-style: solid; border-top-width: 5px; padding: 5px; border-top-color: #cc9999;}
+footer ul li p img {transition: all ease-out 1s;}
+footer ul li p img:hover {cursor: pointer; height: 110px;}
 @media screen and (max-width: 1024px) {
     body {
         width: 100%;
