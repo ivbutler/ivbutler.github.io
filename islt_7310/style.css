@@ -22,7 +22,7 @@ body {background-color:#ffccff; margin: 15px; padding: 5em;}
 footer {border-top-style: solid; border-top-width: 5px; padding: 5px; border-top-color: #cc9999;}
 footer ul li p img {transition: all ease-out 1s;}
 footer ul li p img:hover {cursor: pointer; height: 110px;}
-table {border: 1 px solid #cc9999;border-collapse: collapse;}
+table {border: 1px solid #cc9999; border-collapse: collapse;}
 th, td {border: 1px solid #cc9999; padding: 0.2em 0.7em;}
 thead {background-color: #ff99ff;}
 tr:nth-child(even) {
@@ -102,7 +102,6 @@ textarea {height: 5em; width: 25em; font-family: Book Antiqua; margin: 0.75em;}
     footer ul li p {font-size: 1em;}
     footer ul li a {font-size: 1em;}
     footer h3 p {font-size: 100em;}
-    *p {font-size: 1em;}
     footer ul li {font-size: 1em; width: 60%;}
     footer p a {width: 60%; font-size: 1em;}
     footer {margin: 0; padding: 0; width: 100%;}
