@@ -15,7 +15,7 @@ img {
   float: right; padding: 30px; left: -30px; position: relative;
 }
 main li {color: #990033;}
-li {color:  #cc0066;}
+li {color:  #663333;}
 blockquote {font-family: RedRose;
 }
 body {background-color:#ffccff; margin: 15px; padding: 5em;}
@@ -84,6 +84,37 @@ textarea {height: 5em; width: 25em; font-family: Book Antiqua; margin: 0.75em;}
     }
     label {width: 80%; float: left; text-align: left;}
     input {float: left; width: 80%;}
+    .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+    .video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+    
+    footer ul li p {font-size: 1em;}
+    footer ul li a {font-size: 1em;}
+    footer h3 p {font-size: 100em;}
+    *p {font-size: 1em;}
+    footer ul li {font-size: 1em; width: 60%;}
+    footer p a {width: 60%; font-size: 1em;}
+    footer {margin: 0; padding: 0; width: 100%;}
+    footer img {float: left; width: 5%; padding: 0.5em;}
+    footer img {float: left;}
+    p >a {font-size: 1em;}
+    .copyright p {font-size: 1em;}
+    .copyright p>a {font-size: 1em;}
+    .resume p>a {font-size:3em;}
+    .contact p {font-size:1em;}
+    .contact p>a {font-size:1em;}
+    .section h2 {font-size:1em;}
 }
 @media print {
     
