@@ -126,6 +126,7 @@ textarea {height: 5em; width: 25em; font-family: Book Antiqua; margin: 0.75em;}
     ul, main li, li {color: #000;}
     h1 {color: black; border-color: #000;}
     footer {border-top-color: #000;}
+    .site nav {display: none;}
    }
 
 @media print {

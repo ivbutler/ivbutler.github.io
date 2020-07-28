@@ -60,7 +60,26 @@ Validated: July 22, 2020
        
                 </ul>
     </nav>
-    <h1>Reflection</h1>
+            <SCRIPT>
+<!--
+
+//Bread crumb script - Kevin Lynn Brown
+//Duplicate directory names bug fix by JavaScriptKit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+
+var path = "";
+var href = document.location.href;
+var s = href.split("/");
+for (var i=2;i<(s.length-1);i++) {
+path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+}
+i=s.length-1;
+path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+var url = window.location.protocol + "//" + path;
+document.writeln(url);
+//-->
+</script>
+        <h1>Reflection</h1>
   <p>As I mentioned earlier, one of my personal goals is to cultivate an empathetic and understanding approach to my work, not only in the library field, but also throughout my career, as eclectic as it has been! Library and information services first and foremost must serve the person, not the program. It is our responsibility as information specialists to be aware of our biases and who might be left out of services, in particular how technology can be created with underlying, unconscious biases that then affect the end-user. I am interested in a diversity of experiences, and as such, my career path has followed this guiding principle. By exploring a variety of jobs, I’ve been able to approach library science with an understanding that is not just limited to the field. 
 </p>
 <p>While I was pursuing my Bachelor’s of Art in English, I was also working for the University of Washington, Spokane, as a student assistant in one of the research greenhouses. There I tended to several hundred plants on a daily basis, ensuring their welfare and assisting the various graduate and postdoctoral researchers with their tasks. This gave me the valuable insight not only into English but also the plant sciences. Before transferring to an English degree, I had been previously interested in agriculture, so I was able to use my previous studies at my work. 
@@ -75,6 +94,7 @@ Both my English degree and my plant-science work entailed a high level of detail
             <h3>Contact me:</h3>
    <ul>    
     <li><p><img src="../islt_7310/images/icons8-email-100.png" width="45" alt="email"/><a href="mailto:ibx9g@musystem.edu">ibx9g@musystem.edu</a></p></li><li><p> <img src="../islt_7310/images/icons8-phone-48.png" width="30" alt="phone"/> 1+888-888-8888</p></li></ul> 
-       <div class="copyright"><p>Copyright Ingrid Butler, <a href="https://icons8.com/icon/64541/email"> phone and email icons by Icons8</a>; footer photo by Pixabay/Hans</p></div> </footer>
+        <div class="copyright"><p>Copyright Ingrid Butler, <a href="https://icons8.com/icon/64541/email"> phone and email icons by Icons8</a>; footer photo by Pixabay/Hans</p><p>This free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p></div>
+</footer>
 </body>
 </html>

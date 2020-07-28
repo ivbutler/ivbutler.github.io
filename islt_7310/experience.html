@@ -54,6 +54,25 @@ Validated: July 10, 2020
        
                 </ul>
     </nav>
+        <SCRIPT>
+<!--
+
+//Bread crumb script - Kevin Lynn Brown
+//Duplicate directory names bug fix by JavaScriptKit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+
+var path = "";
+var href = document.location.href;
+var s = href.split("/");
+for (var i=2;i<(s.length-1);i++) {
+path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+}
+i=s.length-1;
+path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+var url = window.location.protocol + "//" + path;
+document.writeln(url);
+//-->
+</script>
 <section id="section1">
 <h1>Professional Experience</h1>
 <h2>Online Editorial Assistant, Real Books Publication, New York, NY, 2019-present</h2>
@@ -70,5 +89,6 @@ Validated: July 10, 2020
             <h3>Contact me:</h3>
    <ul>    
     <li><p><img src="../islt_7310/images/icons8-email-100.png" width="45" alt="email"/><a href="mailto:ibx9g@musystem.edu">ibx9g@musystem.edu</a></p></li><li><p> <img src="../islt_7310/images/icons8-phone-48.png" width="30" alt="phone"/> 1+888-888-8888</p></li></ul> 
-        <div class="copyright"><p>Copyright Ingrid Butler, <a href="https://icons8.com/icon/64541/email"> phone and email icons by Icons8</a>; footer photo by Pixabay/Hans</p></div> </footer>   
+        <div class="copyright"><p>Copyright Ingrid Butler, <a href="https://icons8.com/icon/64541/email"> phone and email icons by Icons8</a>; footer photo by Pixabay/Hans</p><p>This free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p></div>
+</footer>   
     </body>
